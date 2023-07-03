@@ -166,5 +166,5 @@ app.put('/api/tasklist/updateDetails', authenticateJWT, async (req, res) => {
 
 
 app.listen(process.env.PORT || port, () => {
-    console.log(`Express app listening at http://localhost:${port}`);
+    console.log(`Express app listening at https://localhost:${port}`);
 });
