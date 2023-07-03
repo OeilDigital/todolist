@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = "https://ease-my-mind-list-e781937e2148.herokuapp.com/";
+const port = "3001";
 // const path = require('path');
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
