@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = "3001";
-// const path = require('path');
+
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 mongoose.connect('mongodb+srv://seb:oxymore30@cluster0.az94jt6.mongodb.net/todoAPI');
@@ -166,5 +166,5 @@ app.put('/api/tasklist/updateDetails', authenticateJWT, async (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`Express app listening at http://localhost${port}`);
+    console.log(`Express app listening at http://localhost:${port}`);
 });
