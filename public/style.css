@@ -1,8 +1,12 @@
+html {
+  margin: 0;
+}
+
 .mainTitle {
   font-family: 'Pacifico', cursive;
   color: white;
   text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.7);
-}
+  }
 
 .h1Effect {
   animation: scalingH1 1s;
@@ -20,3 +24,72 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width:450px){
+.mainTitle{
+  color: rgb(132, 202, 231);
+  position: absolute;
+  top: 11%;
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+}
+}
+
+
+@media screen and (max-width:667px){
+.mainTitle{
+  color: rgb(132, 202, 231);
+  position: absolute;
+  top: 11%;
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+}
+}
+@media screen and (max-width:667px) and (orientation: landscape){
+.mainTitle{
+  color: rgb(132, 202, 231);
+  position: absolute;
+  top: 18%;
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+}
+}
+
+/* @media  (max-width:820px){
+.mainTitle{
+  color: #1976D3;
+  position: absolute;
+  top: 9%;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+.mainTitle > span{
+  color: #ffffff;
+}
+} */
+
+@media  (max-width:820px) and (orientation: landscape){
+.mainTitle{
+  color: rgb(132, 202, 231);
+  position: absolute;
+  top: 24%;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+}
+
+.mainTitle > span{
+  color: #ffffff;
+}
+}
+
+@media  (max-width:1000px) and (orientation: landscape){
+.mainTitle{
+  color: rgb(132, 202, 231);
+  position: absolute;
+  top: 24%;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+}
+
+.mainTitle > span{
+  color: #ffffff;
+}
+}
+
