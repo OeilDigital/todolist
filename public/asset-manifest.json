@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a34b54ec.css",
+    "main.css": "/static/css/main.b565799e.css",
     "main.js": "/static/js/main.1a6e7eb1.js",
     "static/media/vector-calendar-icon.jpg": "/static/media/vector-calendar-icon.d3014d8b26de7cc5b478.jpg",
     "index.html": "/index.html",
-    "main.a34b54ec.css.map": "/static/css/main.a34b54ec.css.map",
+    "main.b565799e.css.map": "/static/css/main.b565799e.css.map",
     "main.1a6e7eb1.js.map": "/static/js/main.1a6e7eb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a34b54ec.css",
+    "static/css/main.b565799e.css",
     "static/js/main.1a6e7eb1.js"
   ]
 }
